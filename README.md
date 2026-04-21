@@ -53,11 +53,11 @@ Se ha implementado una conexión mediante un conector DB9 macho para el control 
 
 ## Desarrollo de Software
 
-El firmware actual está siendo desarrollado para el PIC18F46K40 utilizando:
+El firmware actual está siendo desarrollado para el [PIC18F46K40](https://www.microchip.com/en-us/product/pic18f46k40) utilizando:
 
-- MPLAB X IDE con compilador XC8.
-- MPLAB Code Configurator (MCC) para la gestión de periféricos.
-- Capacidad de operación Standalone, asistida o vía USB.
+- [MPLAB X IDE con](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide) compilador [XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8).
+- [MPLAB Code Configurator (MCC)](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator) para la gestión de periféricos.
+- Capacidad de operación autónoma, asistida o vía [USB](https://es.wikipedia.org/wiki/Universal_Serial_Bus).
 
 ## Enlaces de Interés y Referencias
 
