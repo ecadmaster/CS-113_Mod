@@ -13,6 +13,15 @@ Este desarrollo propone:
 - Intercepción de Bus: Remoción de los ICs [Zilog Z80](https://www.zilog.com/docs/z80/um0080.pdf) (C4 renombrado como uC4) y [74LS04](https://www.ti.com/lit/ds/symlink/sn74ls04.pdf) (D7 renombrado como uD7) para inyectar señales de control desde un controlador externo.
 - Control Moderno: Uso de una tarjeta [MikroElectronika EasyPIC6](https://www.microchip.com/en-us/development-tool/tmik003) actualizada con un microcontrolador [Microchip PIC18F46K40](https://www.microchip.com/en-us/product/pic18f46k40).
 
+## Esquemas
+
+### Esquema original
+
+![dt-001-orig](ecad/dt-001/_media/dt-001_orig.jpg)
+
+### Esquema migrado a KiCad EDA
+![dt-001-kicad-sch](ecad/dt-001/_media/dt-001_reverse.png)
+
 ## Hardware y Modificaciones
 
 ### Componentes Reutilizados (Bloque de Potencia)
