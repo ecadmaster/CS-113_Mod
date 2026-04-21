@@ -12,7 +12,7 @@ Este desarrollo propone:
 
 - Ingeniería Inversa: Estudio del esquema original de la placa rotulada como DT-001.
 - Migración CAD: Reconstrucción del esquema en KiCad EDA para facilitar el análisis de interconexiones.
-- Intercepción de Bus: Remoción de los ICs [Zilog Z80](https://www.zilog.com/docs/z80/um0080.pdf) (C4 renombrado como uC4) y [74LS04](https://www.ti.com/lit/ds/symlink/sn74ls04.pdf) (D7 renombrado como uD7) para inyectar señales de control desde un controlador externo.
+- Intercepción de Bus: Remoción de los [ICs](https://es.wikipedia.org/wiki/Circuito_integrado) [Zilog Z80](https://www.zilog.com/docs/z80/um0080.pdf) ($$C4$$ renombrado como $$uC4$$) y [74LS04](https://www.ti.com/lit/ds/symlink/sn74ls04.pdf) ($$D7$$ renombrado como $$uD7$$) para inyectar señales de control desde un controlador externo.
 - Control Moderno: Uso de una tarjeta [MikroElectronika EasyPIC6](https://www.microchip.com/en-us/development-tool/tmik003) actualizada con un microcontrolador [Microchip PIC18F46K40](https://www.microchip.com/en-us/product/pic18f46k40).
 
 ## Esquemas
@@ -46,11 +46,11 @@ Una vez consolidado ese estudio y analizando la etapa de potencia, prácticament
 
 ![dt-001_sch_powertrain](ecad/dt-001/_media/dt-001_sch_powertrain.png)
 
-Lo anterior sugiere que los [IC](https://es.wikipedia.org/wiki/Circuito_integrado): uC7, uE1, uE2, uE3, uE4, uE5, uE6, uE7, uF0, uF1, uF2, uF3, uF4, uF5, uF6, uF7 y uF8 deban estar debidamente colocados.
+Lo anterior sugiere que los IC: $$uC7$$, $$uE1$$, $$uE2$$, $$uE3$$, $$uE4$$, $$uE5$$, $$uE6$$, $$uE7$$, $$uF0$$, $$uF1$$, $$uF2$$, $$uF3$$, $$uF4$$, $$uF5$$, $$uF6$$, $$uF7$$ y $$uF8$$ deban estar debidamente colocados.
 
-Y los IC: uC4(Z80) y uD7 deben ser extraídos para no interferir con las señales externas.
+Y los IC: $$uC4$$(Z80) y $$uD7$$ deben ser extraídos para no interferir con las señales externas.
 
-Los demás IC y componentes no son indispensables, no hay necesidad de removerlos, conservar los condensadores o simplemente solo remover uC4 y yD7.
+Los demás IC y componentes no son indispensables, no hay necesidad de removerlos, conservar los condensadores o simplemente solo remover $$uC4$$ y $$uD7$$.
 
 ### Interfaz de Conexión (DB9 Personalizado)
 
