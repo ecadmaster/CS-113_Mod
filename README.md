@@ -42,9 +42,15 @@ La placa original utiliza una arquitectura lógica robusta que se mantiene para 
 - [74LS75](https://www.ti.com/lit/ds/symlink/sn74ls75.pdf): Latches biestables de 4 bits.
 - [TD62064AP](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/932/TD62064AP%2CAF.pdf): Drivers Darlington de alta corriente para los [motor paso a paso (Stepper)](https://es.wikipedia.org/wiki/Motor_paso_a_paso) de tipo unipolar.
 
-Una vez consolidado ese estudio y analizando la etapa de potencia, practicamente solo se requiere el uso de lo siguiente:
+Una vez consolidado ese estudio y analizando la etapa de potencia, prácticamente solo se requiere el uso de lo siguiente:
 
-- pendiente imagen aqui
+![dt-001_sch_powertrain](ecad/dt-001/_media/dt-001_sch_powertrain.png)
+
+Lo anterior sugiere que los [IC](https://es.wikipedia.org/wiki/Circuito_integrado): uC7, uE1, uE2, uE3, uE4 uE5 uE6, uE7, uF0, uF1, uF2, uF3, uF4, uF5, uF6, uF7 y uF8 deban estar debidamente instalados.
+
+Y los IC: uC4(Z80) y uD7 deben ser extraídos para no interferir con las señales externas.
+
+Los demás IC y componentes no son indispensables, no hay necesidad de removerlos, conservar los condensadores o simplemente solo remover uC4 y yD7.
 
 ### Interfaz de Conexión (DB9 Personalizado)
 
