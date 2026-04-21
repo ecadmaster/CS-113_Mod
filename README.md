@@ -56,17 +56,21 @@ Los demás IC y componentes no son indispensables, no hay necesidad de removerlo
 
 Se ha implementado una conexión mediante un conector DB9 macho para el control de los 6 motores de paso y funciones adicionales:
 
-| Pin | Conexión |
-| :----------- | :----------- |
-| 1	| d0 |
-| 2	| d1 |
-| 3	| d2 |
-| 4	| d3 |
-| 5	| d4 |
-| 6	| d5 |
-| 7	| d6 |
-| 8	| ENdrv |
-| 9	| GND |
+| DB9 Macho | Etiqueta | Conexión |
+| :----------- | :----------- | :----------- |
+| Pin 1	| d0 | $$uC4$$ pin #14 |
+| Pin 2	| d1 | $$uC4$$ pin #15 |
+| Pin 3	| d2 | $$uC4$$ pin #12 |
+| Pin 4	| d3 | $$uC4$$ pin #8 |
+| Pin 5	| d4 | $$uC4$$ pin #7 |
+| Pin 6	| d5 | $$uC4$$ pin #9 |
+| Pin 7	| d6 | $$uC4$$ pin #10 |
+| Pin 8	| ENdrv | $$uD7$$ pin #4 |
+| Pin 9	| GND | $$uD7$$ pin #7 |
+
+Quedando la modificación como sigue:
+
+![IMG_20260421_140140_mod_lr](media/IMG_20260421_140140_mod_lr.jpg)
 
 ## Desarrollo de Software
 
