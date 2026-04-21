@@ -40,7 +40,7 @@ La placa original utiliza una arquitectura lógica robusta que se mantiene para 
 - [74LS245](https://www.ti.com/lit/ds/symlink/sn74ls245.pdf): Transceptores de bus octales.
 - [74LS138](https://www.ti.com/lit/ds/symlink/sn74ls138.pdf): Decodificador/demultiplexor de 3 a 8 líneas.
 - [74LS75](https://www.ti.com/lit/ds/symlink/sn74ls75.pdf): Latches biestables de 4 bits.
-- [TD62064AP](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/932/TD62064AP%2CAF.pdf): Drivers Darlington de alta corriente para los [motores paso a paso (Stepper)](https://es.wikipedia.org/wiki/Motor_paso_a_paso) de tipo unipolar.
+- [TD62064AP](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/932/TD62064AP%2CAF.pdf): Drivers [Darlington](https://es.wikipedia.org/wiki/Transistor_Darlington) de alta corriente para los [motores paso a paso (Stepper)](https://es.wikipedia.org/wiki/Motor_paso_a_paso) de tipo unipolar.
 
 Una vez consolidado ese estudio y analizando la etapa de potencia, prácticamente solo se requiere el uso de lo siguiente:
 
@@ -80,7 +80,7 @@ El firmware actual está siendo desarrollado para el [PIC18F46K40](https://www.m
 
 Proyectos y documentación relacionada que han servido de base:
 
-- [Repositorio Digital ULA](http://bdigital2.ula.ve:8080/xmlui/handle/654321/11944)
+- [Repositorio Digital ULA, Diseño e implementación de tarjeta de control para un brazo robotico CS-113, que se controle via USB](http://bdigital2.ula.ve:8080/xmlui/handle/654321/11944)
 - [Análisis Técnico ITC](https://itc.ktu.lt/index.php/ITC/article/view/985/1054)
 - [Hilo en Arduino Forum - Reconstrucción CS-113](https://forum.arduino.cc/t/reconstruccion-de-robot-cs-113/483691)
 - [CS-113 Service-Arm](https://openvrg.moodlehub.com/file.php/30/cyr_0204/cyr_01/robotica/cs113.htm)
