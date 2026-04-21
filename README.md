@@ -17,23 +17,34 @@ Este desarrollo propone:
 
 ## Esquemas
 
+La [placa base](https://es.wikipedia.org/wiki/Circuito_impreso) del manipulador se encuentra ubicada por la parte inferior del mismo.
+
 ### Esquema original
+
+El circuito disponible en la pagina #13 del documento [RS-2200_Pro-Arm_Robotics](datasheet/RS-2200_Pro-Arm_Robotics.pdf), entre otros valores interesantes que se logran conseguir allí de éste aparato.
 
 ![dt-001-orig](ecad/dt-001/_media/dt-001_orig.jpg)
 
 ### Esquema migrado a KiCad EDA
+
+El esquema migrado a una herramienta de diseño es como sigue:
+
 ![dt-001-kicad-sch](ecad/dt-001/_media/dt-001_reverse.png)
 
 ## Hardware y Modificaciones
 
 ### Componentes Reutilizados (Bloque de Potencia)
 
-La placa original utiliza una arquitectura lógica robusta que se mantiene para el manejo de los motores:
+La placa original utiliza una arquitectura lógica robusta que se mantiene para el manejo de los motores, para ello se requiere la comprensión de los siguientes elementos:
 
 - [74LS245](https://www.ti.com/lit/ds/symlink/sn74ls245.pdf): Transceptores de bus octales.
 - [74LS138](https://www.ti.com/lit/ds/symlink/sn74ls138.pdf): Decodificador/demultiplexor de 3 a 8 líneas.
 - [74LS75](https://www.ti.com/lit/ds/symlink/sn74ls75.pdf): Latches biestables de 4 bits.
 - [TD62064AP](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/932/TD62064AP%2CAF.pdf): Drivers Darlington de alta corriente para los [motor paso a paso (Stepper)](https://es.wikipedia.org/wiki/Motor_paso_a_paso) de tipo unipolar.
+
+Una vez consolidado ese estudio y analizando la etapa de potencia, practicamente solo se requiere el uso de lo siguiente:
+
+- pendiente imagen aqui
 
 ### Interfaz de Conexión (DB9 Personalizado)
 
