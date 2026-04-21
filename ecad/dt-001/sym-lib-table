@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "_Transistor_Array")(type "KiCad")(uri "${KICODEASHARED}/_library/_Transistor_Array.kicad_sym")(options "")(descr ""))
+  (lib (name "_Memory_RAM")(type "KiCad")(uri "${KICODEASHARED}/_library/_Memory_RAM.kicad_sym")(options "")(descr ""))
+  (lib (name "_Memory_EPROM")(type "KiCad")(uri "${KICODEASHARED}/_library/_Memory_EPROM.kicad_sym")(options "")(descr ""))
+)

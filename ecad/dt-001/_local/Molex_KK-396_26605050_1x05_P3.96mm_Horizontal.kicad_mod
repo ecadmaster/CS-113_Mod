@@ -1,0 +1,213 @@
+(footprint "Molex_KK-396_26605050_1x05_P3.96mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Molex KK 396 Interconnect System, old/engineering part number: A-41791-0005 example for new part number: 26-60-4050, 5 Pins (https://www.molex.com/pdm_docs/sd/026604020_sd.pdf), generated with kicad-footprint-generator")
+	(tags "connector Molex KK-396 vertical")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "7b12fb4e-48f8-4c4d-b967-64dca544bc99")
+		(effects
+			(font
+				(size 1.524 1.016)
+				(thickness 0.2032)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "Molex_KK-396_26605050_1x05_P3.96mm_Horizontal"
+		(at 0 2.8 0)
+		(layer "F.Fab")
+		(uuid "c87fcf5c-670b-4c9c-ae39-13596e325634")
+		(effects
+			(font
+				(size 0.635 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02b0bc74-44ee-4039-9f55-0fa1d85d42e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52df00f2-3476-47d6-9f0d-cb5feed9a810")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -17.8 5.2)
+		(end 2 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7c08479-060d-41e3-bc13-be88e5e2fed2")
+	)
+	(fp_line
+		(start -17.8 8.8)
+		(end -17.8 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebfdca59-6ed9-4e57-8449-27ad21a07a9d")
+	)
+	(fp_line
+		(start -17.8 8.8)
+		(end 2 8.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecec92d6-ef89-45eb-9dbd-e509714579ac")
+	)
+	(fp_line
+		(start 2 8.8)
+		(end 2 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "017356c4-eff1-4aff-9f3c-32ca4790f6bb")
+	)
+	(fp_rect
+		(start -18.2 -2.4)
+		(end 2.4 20.4)
+		(stroke
+			(width 0.04)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8838bbff-b21f-4f4d-ab4f-6a1f8479ec68")
+	)
+	(fp_line
+		(start -18 -2.2)
+		(end -18 20.2)
+		(stroke
+			(width 0.04)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "845935ba-4192-4ba9-8f98-a706660a5b1a")
+	)
+	(fp_line
+		(start 2.2 -2.2)
+		(end -18 -2.2)
+		(stroke
+			(width 0.04)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84b0ad23-bab2-499d-8f0e-e7da88fbdc3f")
+	)
+	(fp_line
+		(start 2.2 -2.2)
+		(end 2.2 20.2)
+		(stroke
+			(width 0.04)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbaa1dda-b469-4df5-b90f-7fa884ff17c2")
+	)
+	(fp_line
+		(start 2.2 20.2)
+		(end -18 20.2)
+		(stroke
+			(width 0.04)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35a1cebe-4004-45e5-9d89-d9575fb3c7ed")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "347db4f0-c36f-4c26-897f-70e8b8182438")
+		(effects
+			(font
+				(size 1.016 0.762)
+				(thickness 0.1524)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3.16 4.1)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.07911392405)
+		(uuid "f1323319-da39-4be0-8029-d0d73b1a1874")
+	)
+	(pad "2" thru_hole oval
+		(at -3.96 0)
+		(size 3.16 4.1)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6eb42956-63af-4c31-aab7-8663cf9a703c")
+	)
+	(pad "3" thru_hole oval
+		(at -7.92 0)
+		(size 3.16 4.1)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4fe7e186-31fe-4c4c-89e3-f9875607b57f")
+	)
+	(pad "4" thru_hole oval
+		(at -11.88 0)
+		(size 3.16 4.1)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e41d8b0-2fba-45f6-b2f4-a2c8fce9f073")
+	)
+	(pad "5" thru_hole oval
+		(at -15.84 0)
+		(size 3.16 4.1)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4ead7048-da64-4c34-a95f-cb9a1fe57b01")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/_local/Molex_KK-396_26605050_1x05_P3.96mm_Horizontal.step"
+		(offset
+			(xyz -7.92 -7.42 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+)
