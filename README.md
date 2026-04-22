@@ -93,7 +93,10 @@ Proyectos y documentación relacionada que han servido de base:
 Nota: Si has realizado algún intento de desarrollo con este manipulador, te invitamos a colaborar agregando tu referencia en esta sección.
 
 ## Colaboradores
-- Alberto Medrano
+- [Alberto Medrano](https://github.com/ecadmaster/)
+- Gerardo Rueda
+- Luis Araujo
+- Francisco Viloria
 
 ## Instalación y Uso
 
