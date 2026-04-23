@@ -94,9 +94,9 @@ Nota: Si has realizado algún intento de desarrollo con este manipulador, te inv
 
 ## Colaboradores
 - [Alberto Medrano](https://github.com/ecadmaster/)
+- Francisco Viloria
 - Gerardo Rueda
 - Luis Araujo
-- Francisco Viloria
 
 ## Instalación y Uso
 
