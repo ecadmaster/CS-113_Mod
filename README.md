@@ -76,7 +76,7 @@ Quedando la modificación como sigue:
 
 El firmware actual está siendo desarrollado para el [PIC18F46K40](https://www.microchip.com/en-us/product/pic18f46k40) utilizando:
 
-- [MPLAB X IDE con](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide) compilador [XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8).
+- [MPLAB X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide) con compilador [XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8).
 - [MPLAB Code Configurator (MCC)](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator) para la gestión de periféricos.
 - Capacidad de operación autónoma, asistida o vía [USB](https://es.wikipedia.org/wiki/Universal_Serial_Bus).
 
