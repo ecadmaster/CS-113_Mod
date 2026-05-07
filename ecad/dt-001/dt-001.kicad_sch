@@ -7,7 +7,7 @@
 	(title_block
 		(title "CS-113 Service-Arm (reverse engineering)")
 		(date "2026-04-24")
-		(rev "rev0")
+		(rev "rev0b")
 		(comment 1 "Alberto Medrano (medrano.alberto@ula.ve)")
 	)
 	(lib_symbols

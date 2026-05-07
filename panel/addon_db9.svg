@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="50.99999666669204mm" height="40.999999934640485mm" viewBox="0 0 50.99999666669204 40.999999934640485" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g id="Part__Part2DObjectPython001" transform="translate(25.499998,20.500000) scale(1,-1)">
+<path id="Part__Part2DObjectPython001_w0000"  d="M -19.999999999999996 19.999999999999734 A 5 5 0 0 1 -25 15L -24.999998366025512 -15.0 A 5 5 0 0 1 -20 -20L 19.999999999999996 -19.999999999999734 A 5 5 0 0 1 25 -15L 24.999998366025512 14.999999999999996 A 5 5 0 0 1 20 20L -19.999999999999996 19.999999999999734 " stroke="#212529" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
+<circle cx="-19.999998366025512" cy="15.0" r="1.5" stroke="#212529" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="19.999998366025512" cy="15.0" r="1.5" stroke="#212529" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="19.999998366025512" cy="-15.000000000000002" r="1.5" stroke="#212529" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="-19.999998366025512" cy="-15.0" r="1.5" stroke="#212529" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="-12.5" cy="4.75" r="1.5" stroke="#212529" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="12.5" cy="4.75" r="1.5" stroke="#212529" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<path id="Part__Part2DObjectPython001_w0007"  d="M 7.999999988266402 -1.1 A 1.5 1.5 0 0 1 9.47721 0.139528L 11.0 9.099999999999987 A 1.5 1.5 0 0 1 9.5 10.6L -9.5 10.6 A 1.5 1.5 0 0 1 -11 9.1L -9.477211629518312 0.13952773349960418 A 1.5 1.5 0 0 1 -8 -1.1L 7.999999988266402 -1.1 " stroke="#212529" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
+<title>b'Part__Part2DObjectPython001'</title>
+</g>
+</svg>
