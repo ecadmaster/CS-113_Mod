@@ -50,7 +50,7 @@ Lo anterior sugiere que los IC: $$uC7$$, $$uE1$$, $$uE2$$, $$uE3$$, $$uE4$$, $$u
 
 Y los IC: $$uC4$$(Z80) y $$uD7$$ deben ser extraídos para no interferir con las señales externas.
 
-Los demás IC y componentes no son indispensables, no hay necesidad de removerlos, conservar los condensadores o simplemente solo remover $$uC4$$ y $$uD7$$.
+Los demás IC y componentes no son indispensables, no hay necesidad de removerlos, conservar los condensadores o simplemente solo remover $$uA6$$, $$uA8$$, $$uB8$$, $$uC4$$, $$uD1$$, $$uD3$$, $$uD4$$, $$uD6$$ y $$uD7$$.
 
 ### Interfaz de Conexión (DB9 Personalizado)
 
@@ -72,12 +72,18 @@ Quedando la modificación como sigue:
 
 ![IMG_20260421_140140_mod_lr](media/IMG_20260421_140140_mod_lr.jpg)
 
+Una propuesta de adaptación en la parte trasera es como sigue:
+
+![IMG_20260507_104514_mod_lr](media/IMG_20260507_104514_mod_lr.jpg)
+
+El circuito que maneja el tren de potencia funciona con 5V TTL dado que todas las señales son de tipo entrada. Puede conectarse controladores que funcionen a 3.3V directo sin necesidad de circuitos de interfaz, considere revisar los voltajes admitidos, ver [Logic Guide](https://www.ti.com/lit/sg/sdyu001ab/sdyu001ab.pdf) (de Texas Instruments) para mayor detalle y videoclase [Circuitos Interfaz](https://youtu.be/W1FWi5FtGR8).
+
 ## Desarrollo de Software
 
 El firmware actual está siendo desarrollado para el [PIC18F46K40](https://www.microchip.com/en-us/product/pic18f46k40) utilizando:
 
 - [MPLAB X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide) con compilador [XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers/xc8).
-- [MPLAB Code Configurator (MCC)](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator) para la gestión de periféricos.
+- [MPLAB Code Configurator (MCC)](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator) para la configuración de periféricos.
 - Capacidad de operación autónoma, asistida o vía [USB](https://es.wikipedia.org/wiki/Universal_Serial_Bus).
 
 ## Enlaces de Interés y Referencias
