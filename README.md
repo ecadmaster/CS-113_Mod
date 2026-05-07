@@ -48,9 +48,7 @@ Una vez consolidado ese estudio y analizando la etapa de potencia, prácticament
 
 Lo anterior sugiere que los IC: $$uC7$$, $$uE1$$, $$uE2$$, $$uE3$$, $$uE4$$, $$uE5$$, $$uE6$$, $$uE7$$, $$uF0$$, $$uF1$$, $$uF2$$, $$uF3$$, $$uF4$$, $$uF5$$, $$uF6$$, $$uF7$$ y $$uF8$$ deban estar debidamente colocados.
 
-Y los IC: $$uC4$$(Z80) y $$uD7$$ deben ser extraídos para no interferir con las señales externas.
-
-Los demás IC y componentes no son indispensables, no hay necesidad de removerlos, conservar los condensadores o simplemente solo remover $$uA6$$, $$uA8$$, $$uB8$$, $$uC4$$, $$uD1$$, $$uD3$$, $$uD4$$, $$uD6$$ y $$uD7$$.
+Tambien es requerido remover los ICs: $$uA6$$, $$uA8$$, $$uB8$$, $$uC4$$(Z80), $$uD1$$, $$uD3$$, $$uD4$$, $$uD6$$ y $$uD7$$ y $$uD7$$ para no interferir con las señales externas que provengan del controlador externo.
 
 ### Interfaz de Conexión (DB9 Personalizado)
 
