@@ -76,7 +76,7 @@ Una propuesta de adaptación en la parte trasera es como sigue:
 
 ![IMG_20260507_104514_mod_lr](media/IMG_20260507_104514_mod_lr.jpg)
 
-El circuito que maneja el tren de potencia funciona con 5V TTL dado que todas las señales son de tipo entrada. Puede conectarse controladores que funcionen a 3.3V directo sin necesidad de circuitos de interfaz, considere revisar los voltajes admitidos, ver [Logic Guide](https://www.ti.com/lit/sg/sdyu001ab/sdyu001ab.pdf) (de Texas Instruments) para mayor detalle y videoclase [Circuitos Interfaz](https://youtu.be/W1FWi5FtGR8).
+El circuito que maneja el tren de potencia funciona con 5V TTL dado que todas las señales son de tipo entrada. Pueden conectarse controladores que funcionen a 3.3V directo sin necesidad de circuitos de interfaz, considere revisar los voltajes admitidos, ver [Logic Guide](https://www.ti.com/lit/sg/sdyu001ab/sdyu001ab.pdf) (de Texas Instruments) para mayor detalle y videoclase [Circuitos Interfaz](https://youtu.be/W1FWi5FtGR8).
 
 ## Desarrollo de Software
 
