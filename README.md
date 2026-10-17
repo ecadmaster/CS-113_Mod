@@ -1,5 +1,8 @@
 # Modernización del Manipulador Robótico CS-113 / RS-2200 Pro-Arm
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![KiCad](https://img.shields.io/badge/KiCad-EDA-blue.svg)](https://kicad.org/)
+
 Este proyecto tiene como objetivo la recuperación y actualización tecnológica de los brazos robóticos CS-113 (RS-2200 Pro-Arm) pertenecientes a la [Universidad de Los Andes (ULA)](http://ula.ve/). Mediante el estudio del esquema original y la migración a herramientas modernas como [KiCad EDA](https://www.kicad.org/), se ha diseñado un método para interceptar el bus de control original y sustituir el microprocesador [Zilog Z80](https://www.zilog.com/docs/z80/um0080.pdf) por [microcontroladores](https://es.wikipedia.org/wiki/Microcontrolador)/[SoC](https://es.wikipedia.org/wiki/Sistema_en_un_chip) de nueva generación.
 
 ![cs-113_side](media/dt-001_side.png)
